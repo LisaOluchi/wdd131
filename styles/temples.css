@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+  }
+  
+  
+  header {
+    background-color: #4b0082; 
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 4rem;
+  }
+  
+  
+  figure {
+    margin-bottom: 2rem;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  figure figcaption {
+    font-weight: bold;
+  }
+
+  .hamburger {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    
+    .hamburger {
+      display: block;
+    }
+  
+   
+    nav ul {
+      display: none;
+    }
+  
+    nav ul.show {
+      display: flex;
+      flex-direction: column;
+    }
+  } 
