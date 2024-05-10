@@ -6,9 +6,9 @@
   
  
   body {
-    font-family: 'Roboto', sans-serif; /* Use Google Font Roboto */
-    background-color: #fff; /* White background */
-    color: #000; /* Black text color */
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff; 
+    color: #000; 
   }
   
   
@@ -43,6 +43,8 @@
     max-width: 800px; 
     margin: 0 auto; 
     padding: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:2rem;
   }
   
   
@@ -79,5 +81,8 @@
     nav ul.show {
       display: flex;
       flex-direction: column;
+    }
+    main {
+      grid-template-columns: 1fr; 
     }
   } 
