@@ -9,15 +9,7 @@ main {
   gap: 20px; /* Adjust as needed */
 }
 
-figure {
-  margin-bottom: 1rem;
-}
 
-figure img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
 
 
 

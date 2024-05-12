@@ -40,27 +40,44 @@
   
   
   main {
-    max-width: 800px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px; 
+    max-width: 1400px; 
     margin: 0 auto; 
-    padding: 4rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap:2rem;
-  }
+}
+
   
-  
-  figure {
-    margin-bottom: 2rem;
+.figure {
+  margin-top: 2rem;
   }
   
   figure img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    display: flex; /* Use flexbox */
+   justify-content: center; /* Horizontally center the items */
+   flex-wrap: wrap;
+    
+    
+    
   }
   
   figure figcaption {
-    font-weight: bold;
+    font-weight:normal;
   }
+
+
+
+  footer {
+    background-color:#163557; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    margin-top: 20px; 
+}
 
   .hamburger {
     display: none;
