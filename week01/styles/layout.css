@@ -57,7 +57,7 @@ section {
     width: calc(70% - 20px);
 }
 
-/* Style the aside */
+
 aside {
     background-color: #fff; 
     padding: 20px;
@@ -65,7 +65,7 @@ aside {
     margin-left: 300%; 
 }
 
-/* Styling footer */
+
 footer {
     background-color: #333; 
     color: #fff; 
