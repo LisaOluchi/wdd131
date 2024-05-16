@@ -1,0 +1,116 @@
+/* Define CSS variables for color scheme */
+:root {
+    --green: #007847;
+    --yellow: #FFB81C;
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #DE3831;
+    --blue: #002395;
+    --background-color: var(--black);
+    --text-color: var(--black);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    position: relative;
+    background-image: url('images/south-africa-desktop.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    display: block;
+}
+
+.medium-box {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 45%;
+}
+
+.left {
+    top: 20%;
+    left: 5%;
+}
+
+.right {
+    top: 20%;
+    right: 5%;
+}
+
+footer {
+    background-color: var(--green);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    clear: both;
+    margin-top: 10px; 
+}
+
+/*  The Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .medium-box {
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        top: 40%;
+        bottom: 5%;
+    }
+
+    .left {
+        top: 10%;
+    }
+
+    .right {
+        bottom: 10%;
+    }
+
+    .weather-icon-mobile {
+        display: inline;
+    }
+}
+
+/* Pseudo-element for the weather icon */
+.right h2::after {
+    content: '⛅';
+    display: inline-block;
+    margin-left: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Africa</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> South Africa </h1>
+    </header>
+    <main>
+        <section class="hero">
+        <img srcset="images/south-africa-mobile.webp 500w,
+                         images/south-africa-tablet.webp 768w,
+                         images/south-africa-desktop.webp 1024w"
+                 sizes="(max-width: 500px) 500px,
+                        (max-width: 868px) 778px,
+                        1024px"
+                 src="images/south-africa-desktop.webp" alt="South Africa">
+            
+            <div class="medium-box left">
+                <h2>Data</h2>
+                <p>
+                    Area :1,221,037 sq km,Population :62 million,  Capital : Pretoria,  Languages : English, isiZulu, isiXhosa, Afrikaans, Currency :ZAR/RAND, Time zone :SAST, Calling code :+27, Internet TLD :.za
+                
+                </p>
+            </div>
+            <div class="medium-box right">
+                <img src="weather-icon-mobile.svg" alt="" class="weather-icon-mobile">
+                <h2>Weather</h2>
+                <p>
+                    Temperature :23°C
+                    Condionts :sub-tropical and temperate climate 
+                    Wind : 13km/h
+                    Wind Chill : 29°
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+        <p>Current Year: <span id="current-year"></span></p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+  
+</body>
+</html>
