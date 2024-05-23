@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #fffacd; /* Cream */
+    color: #4B2E2E; /* Dark Brown */
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Sofia', sans-serif;
+    color: #bd34a4; /* Purple */
+}
+
+/* Paragraphs */
+p {
+    color: #0f0e0e; /* Dark Brown */
+}
+
+/* Background and accents */
+header {
+    background-color: #f9aef5; /* Pastel Light Pink */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: #cabeb0; /* Beige */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #bd34a4; /* Purple */
+    background-color: #ffffff; /* White */
+}
+
+/* Links */
+a {
+    color: #f3eef2; /* Purple */
+}
+
+a:hover {
+    color: #725430; /* Tomato */
+}
+
+/* Wireframe Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #bd34a4; /* Purple */
+    padding: 5px;
+    background-color: #f8e2e7; /* Light pastel purple */
+}
