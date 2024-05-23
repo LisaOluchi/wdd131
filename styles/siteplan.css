@@ -1,54 +1,54 @@
-/* General Styles */
+
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #fffacd; /* Cream */
-    color: #4B2E2E; /* Dark Brown */
+    background-color: #fffacd; 
+    color: #4B2E2E; 
 }
 
 /* Headings */
 h1, h2 {
     font-family: 'Sofia', sans-serif;
-    color: #bd34a4; /* Purple */
+    color: #bd34a4; 
 }
 
-/* Paragraphs */
+
 p {
-    color: #0f0e0e; /* Dark Brown */
+    color: #0f0e0e; 
 }
 
-/* Background and accents */
+
 header {
-    background-color: #f9aef5; /* Pastel Light Pink */
+    background-color: #f9aef5; 
     padding: 20px;
     text-align: center;
 }
 
 main {
-    background-color: #cabeb0; /* Beige */
+    background-color: #cabeb0; 
     padding: 20px;
 }
 
 section {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #bd34a4; /* Purple */
-    background-color: #ffffff; /* White */
+    border: 1px solid #bd34a4; 
+    background-color: #ffffff; 
 }
 
 /* Links */
 a {
-    color: #f3eef2; /* Purple */
+    color: #f3bde8; 
 }
 
 a:hover {
-    color: #725430; /* Tomato */
+    color: #725430; 
 }
 
 /* Wireframe Images */
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #bd34a4; /* Purple */
+    border: 2px solid #bd34a4; 
     padding: 5px;
-    background-color: #f8e2e7; /* Light pastel purple */
+    background-color: #f8e2e7; 
 }
