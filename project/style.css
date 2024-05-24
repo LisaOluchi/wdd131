@@ -5,7 +5,7 @@ body {
     color: #4B2E2E; 
 }
 
-/* Headings */
+
 h1, h2 {
     font-family: 'Sofia', sans-serif;
     color: #bd34a4; 
@@ -35,7 +35,7 @@ section {
     background-color: #ffffff; 
 }
 
-/* Links */
+
 a {
     color: #f3bde8; 
 }
@@ -44,7 +44,7 @@ a:hover {
     color: #725430; 
 }
 
-/* Wireframe Images */
+
 img {
     max-width: 100%;
     height: auto;
