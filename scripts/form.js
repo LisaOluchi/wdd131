@@ -28,24 +28,18 @@ const products = [
     }
 ];
 
-document.addEventListener('DOMContentLoaded', ()=>{
-    const productSelect = document.getElementById('productNmae');
+document.addEventListener('DOMContentLoaded', () => {
+    const productSelect = document.getElementById('productName');
     products.forEach(product => {
         const option = document.createElement('option');
         option.value = product.id;
         option.textContent = product.name;
         productSelect.appendChild(option);
     });
+
+    const currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").textContent = currentYear;
+
+    const lastModifiedDate = document.lastModified;
+    document.getElementById("lastModified").textContent = "Last modified: " + lastModifiedDate;
 });
-
-const currentYear = new Date().getFullYear();
-document.getElementById("currentYear").textContent = currentYear;
-
-
-const lastModifiedDate = document.lastModified;
-document.getElementById("lastModified").textContent = "Last modified: " + lastModifiedDate;
-
-
-
-
- 
