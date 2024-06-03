@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Come And Bake</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>
+            <strong>Email:</strong> info@comeandbake.com
+            </p>
+            <p>
+                <strong>Phone:</strong> +27 61 022 1411
+                </p>
+                <p>
+                    <p><strong>Address:</strong> 47 Marine drive, Port Elizabeth, Eastern Cape, South Africa</p> 
+        </section>
+
+        <section>
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Recipe Rating</h2>
+            <form id="ratingForm">
+                <label for="recipe">Recipe Name:</label>
+                <input type="text" id="recipe" name="recipe" required>
+                
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+                
+                <button type="submit">Submit Rating</button>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Come And Bake</p>
+        <a href="attributions.html">Attributions</a>
+    </footer>
+    <script src="scripts/cab.js"></script>
+</body>
+</html>

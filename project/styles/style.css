@@ -1,31 +1,109 @@
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #fffacd; 
-    color: #4B2E2E; 
+    background-color: #6a6a64; 
+    color: #8e6b6b;
+    margin: 0;
+    padding: 0; 
 }
 
 
 h1, h2 {
     font-family: 'Sofia', sans-serif;
-    color: #bd34a4; 
+    color: #ffffff; 
+    font-size: 36px;
 }
+
+header h1 {
+    font-family: 'Sofia', cursive;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Sofia', cursive;
+    color: #bd34a4;
+}
+
 
 
 p {
     color: #0f0e0e; 
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 header {
-    background-color: #faa6f6; 
+    background-color: #e65ddf; 
     padding: 20px;
     text-align: center;
+    color: #ffffff;
+}
+
+
+
+.intro {
+    font-family: 'Sofia', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+.featured-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #493e32;
 }
 
 main {
-    background-color: #cabeb0; 
+     
     padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    padding: 10px;
+    border: 1px solid #bd34a4;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #bd34a4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #a02e8f;
 }
 
 section {
@@ -41,14 +119,51 @@ a {
 }
 
 a:hover {
-    color: #725430; 
+    color: #a0763a; 
 }
 
 
 img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
     border: 2px solid #bd34a4; 
     padding: 5px;
-    background-color: #f8e2e7; 
+    background-color: #f8e2e7;
+    
+}
+
+
+
+.featured-recipes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.recipe-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.recipe-item img {
+    max-width: 200px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000; 
+}
+
+
+footer {
+    background-color: #e65ddf;;
+    color: white;
+    text-align: center;
+    bottom: 0;
 }
